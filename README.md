@@ -16,19 +16,23 @@ save_vibes("images/vibes_small.png"; scale=1)
 ```
 
 html
-<img src="https://raw.githubusercontent.com/matthijscox/EindhovenLogo.jl/main/images/vibes_small.png">
+<img src="https://raw.githubusercontent.com/matthijscox/EindhovenLogo.jl/main/images/vibes_small.jpg">
 
 markdown
-![img](https://raw.githubusercontent.com/matthijscox/EindhovenLogo.jl/main/images/vibes_small.png)
+![img](https://raw.githubusercontent.com/matthijscox/EindhovenLogo.jl/main/images/vibes_small.jpg)
 
 raw=true
-![img](https://raw.githubusercontent.com/matthijscox/EindhovenLogo.jl/main/images/vibes_small.png?raw=true)
+![img](https://raw.githubusercontent.com/matthijscox/EindhovenLogo.jl/main/images/vibes_small.jpg?raw=true)
 
 relative link..
-![img](/images/vibes_small.png)
+![img](/images/vibes_small.jpg)
 
 parent relative link..
-![img](../images/vibes_small.png)
+![img](../images/vibes_small.jpg)
+
+another relative link..
+![img](./images/vibes_small.jpg)
+
 ## Notes
 
 Non-mac users may need to download the [Banga MN font](https://fontmeme.com/fonts/bangla-mn-regular-font/) which is the Julia logo font.
