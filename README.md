@@ -15,7 +15,7 @@ using EindhovenLogo
 save_vibes("images/vibes_small.png"; scale=1)
 ```
 
-![img](https://raw.githubusercontent.com/matthijscox/EindhovenLogo.jl/main/images/vibes_small.png)
+![images/vibes_small.png](https://raw.githubusercontent.com/matthijscox/EindhovenLogo.jl/main/images/vibes_small.png)
 
 ## Notes
 
@@ -25,4 +25,4 @@ Non-mac users may need to download the [Banga MN font](https://fontmeme.com/font
 
 I am still looking for the official specs of the Eindhoven vibes, please email me if you know them. I measured the dimensions myself. They match visually when I overlay my vibes on top of the official vibes.
 
-![img](https://raw.githubusercontent.com/matthijscox/EindhovenLogo.jl/main/images/vibe-specs.png)
+![images/vibe-specs.png](https://raw.githubusercontent.com/matthijscox/EindhovenLogo.jl/main/images/vibe-specs.png)
