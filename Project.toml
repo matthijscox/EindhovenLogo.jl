@@ -1,0 +1,13 @@
+name = "EindhovenLogo"
+uuid = "18231132-4f0d-4a5b-8f66-ccd1a8e66870"
+authors = ["matcox <matthijs.cox@asml.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
