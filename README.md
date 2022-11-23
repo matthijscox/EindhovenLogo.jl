@@ -15,8 +15,20 @@ using EindhovenLogo
 save_vibes("images/vibes_small.png"; scale=1)
 ```
 
-<img src="https://raw.githubusercontent.com/matthijscox/EindhovenLogo.jl/main/images/vibes_small.png?raw=true">
+html
+<img src="https://raw.githubusercontent.com/matthijscox/EindhovenLogo.jl/main/images/vibes_small.png">
 
+markdown
+![img](https://raw.githubusercontent.com/matthijscox/EindhovenLogo.jl/main/images/vibes_small.png)
+
+raw=true
+![img](https://raw.githubusercontent.com/matthijscox/EindhovenLogo.jl/main/images/vibes_small.png?raw=true)
+
+relative link..
+![img](/images/vibes_small.png)
+
+parent relative link..
+![img](../images/vibes_small.png)
 ## Notes
 
 Non-mac users may need to download the [Banga MN font](https://fontmeme.com/fonts/bangla-mn-regular-font/) which is the Julia logo font.
@@ -25,4 +37,4 @@ Non-mac users may need to download the [Banga MN font](https://fontmeme.com/font
 
 I am still looking for the official specs of the Eindhoven vibes, please email me if you know them. I measured the dimensions myself. They match visually when I overlay my vibes on top of the official vibes.
 
-<img src="https://raw.githubusercontent.com/matthijscox/EindhovenLogo.jl/main/images/vibe-specs.png?raw=true">
+<img src="https://raw.githubusercontent.com/matthijscox/EindhovenLogo.jl/main/images/vibe-specs.png">
