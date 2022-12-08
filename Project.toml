@@ -1,7 +1,7 @@
 name = "EindhovenLogo"
 uuid = "18231132-4f0d-4a5b-8f66-ccd1a8e66870"
 authors = ["matcox <matthijs.cox@gmail.com> and contributors"]
-version = "0.1.0"
+version = "0.2.0"
 
 [deps]
 Luxor = "ae8d54c2-7ccd-5906-9d76-62fc9837b5bc"

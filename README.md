@@ -12,7 +12,13 @@ The [Eindhoven vibes](https://www.eindhoven.nl/bestuur-en-beleid/organisatie/log
 
 ```julia
 using EindhovenLogo
-save_vibes("images/vibes_small.png"; scale=1)
+
+save_logo("images/eindhoven.png"; scale=4.5)
+save_logo("images/eindhoven.svg"; scale=4.5)
+save_logo("images/eindhoven-white.png"; scale=4.5, textcolor="white")
+
+save_vibes("images/vibes.png"; scale=4.5)
+save_vibes("images/vibes.svg"; scale=4.5)
 ```
 
 ![images/vibes_small.png](https://raw.githubusercontent.com/matthijscox/EindhovenLogo.jl/main/images/vibes_small.png)
@@ -23,6 +29,6 @@ Non-mac users may need to download the [Banga MN font](https://fontmeme.com/font
 
 ## Technical details
 
-I am still looking for the official specs of the Eindhoven vibes, please email me if you know them. I measured the dimensions myself. They match visually when I overlay my vibes on top of the official vibes.
+I obtained the grid for the official Eindhoven vibes logo, which I used to estimate the logo dimensions:
 
 ![images/vibe-specs.png](https://raw.githubusercontent.com/matthijscox/EindhovenLogo.jl/main/images/vibe-specs.png)
