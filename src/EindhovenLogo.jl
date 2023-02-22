@@ -84,10 +84,7 @@ function scaled_julialogo(;
     end
 
     # save current color
-    r, g, b, a = Luxor.get_current_redvalue(),
-                    Luxor.get_current_greenvalue(),
-                    Luxor.get_current_bluevalue(),
-                    Luxor.get_current_alpha()
+    original_color = Luxor.get_current_color()
 
     # "j" without dot
     _j  =  [
@@ -277,7 +274,7 @@ function scaled_julialogo(;
         do_action(action)
     end
     # restore saved color
-    setcolor(r, g, b, a)
+    setcolor(original_color)
 
     # and position
     if centered == true
