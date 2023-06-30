@@ -68,7 +68,13 @@ function draw_eindhoven(;scale::Real=4.5, textcolor="black")
     fillpreserve()
     #settext("eindhoven", Point(xoffset-215*scale, 110*scale))
     sethue(Luxor.julia_blue...)
-    circle(-45*scale, -7.5*scale, 2.5*scale, :fill)
+    if Sys.isapple()
+        circle(-60*scale, -7.5*scale, 2.5*scale, :fill)
+    else
+        circle(-45*scale, -7.5*scale, 2.5*scale, :fill)
+    end
+    
+    
 end
 
 # copy-pasted from Luxor.jl and added scale, sorry
