@@ -23,10 +23,6 @@ save_vibes("images/vibes.svg"; scale=4.5)
 
 ![images/vibes_small.png](https://raw.githubusercontent.com/matthijscox/EindhovenLogo.jl/main/images/vibes_small.png)
 
-## Notes
-
-Non-mac users may need to download the [Banga MN font](https://fontmeme.com/fonts/bangla-mn-regular-font/) which is the Julia logo font.
-
 ## Technical details
 
 I obtained the grid for the official Eindhoven vibes logo, which I used to estimate the logo dimensions:
